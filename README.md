@@ -21,3 +21,11 @@ A good resource for submodules can be found [here](https://git-scm.com/book/en/v
 This adds the submodule to the top-level directory.  To add the module to a different directory, you can append the path as follows:
 
 ``git submodule add https://github.com/user-name/repo [path]``
+
+## Resetting to another version
+
+```
+git add --all
+git commit -m "Message for commit"
+git reset --hard origin/master
+```
