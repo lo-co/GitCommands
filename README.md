@@ -29,3 +29,13 @@ git add --all
 git commit -m "Message for commit"
 git reset --hard origin/master
 ```
+
+# SSH 
+
+To SSH from the terminal use the following command:
+
+```
+ssh user@address
+```
+
+where ``user`` is the user name that we will be ssh'ing into the site with and ``address`` is the site address (ip or www).
